@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #24053E;
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    font-weight: 300;
+}
+
+.apply-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.apply-link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #44FFA1;
+    transition: height 0.2s ease;
+}
+
+.apply-link:hover:after {
+    height: 3px;
+}
+
+/* Hero section */
+.hero {
+    background-color: #24053E;
+    color: white;
+    text-align: center;
+    padding: 3rem 1.5rem 8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero:before {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 100px;
+    background-color: #24053E;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+ .diver {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.diver svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 117px;
+}
+
+.diver .shape-fill {
+    fill: #FCF8FF;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline {
+    border-bottom: 3px solid #44FFA1;
+    padding-bottom: 2px;
+}
+
+.hero-btn {
+    background-color: #44FFA1;
+    color: #24053E;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    outline: 2px solid #44FFA1;
+}
+  /* Features section */
+
+    .custom-shape-divider-bottom-1756421613 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1756421613 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 113px;
+}
+
+.custom-shape-divider-bottom-1756421613 .shape-fill {
+    fill: #FFFFFF;
+}
+        
+.features {
+    background-color: #FCF8FF;
+    padding: 8rem 1.5rem 4rem;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+}
+
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.feature {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.feature-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #24053E;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #24053E;
+}
+
+.feature-desc {
+    color: #584D62;
+    line-height: 1.6;
+}
+
+/* Replace your current image and founder-content styles with this */
+
+.image {
+    position: relative;
+    padding: 5rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+   margin-left: 12rem;
+}
+
+.image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.founder-content {
+    position: absolute;
+    width: 55%;
+    height: auto;
+    background-color: #24053E;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    color: white;
+    padding: 3rem;
+    z-index: 2;
+}
+
+.founder-btn {
+    background-color: #44FFA1;
+    color: #24053E;
+    border: none;
+    margin-top: 20px;
+    padding: 0.8rem 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.founder-btn:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    outline: 2px solid #44FFA1;
+}
+
+ footer {
+    background-color: white;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #24053E;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    color: #24053E;
+    font-size: 1.5rem;
+}
+
